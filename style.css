@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+* {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+    /* background: linear-gradient(48deg, rgba(239,83,205,1) 0%, rgba(114,161,247,1) 25%, rgba(0,81,252,1) 50%, rgba(114,161,247,1) 75%, rgba(142,114,247,1) 88%); */
+    background-image: linear-gradient(to right top, #ef53cd, #d460d8, #b66adf, #9772e2, #7777e0, #6a74df, #5b72de, #4a6fdd, #5165e0, #5c58e1, #6a49e0, #7a35dc);
+    color: #fff4ff;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+.Glassmorphism {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+}
+
+.col-3>p {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(15, 17, 39, 0.3);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    background: rgba(73, 70, 240, 0.6);
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+    padding: 10%;
+    border-radius: .2em;
+    color: #fff4ff;
+    transition: all .3s ease-in-out;
+}
+
+.col-3>p:hover {
+    background: #7a35dc;
+    transition: all .3s ease-in-out;
+}
+
+#screen,
+#last-operation {
+    color: #7a35dc;
+    outline: 0;
+    background-color: transparent;
+}
+
+picture {
+    width: 25%;
+}
+
+.error {
+    outline: 1px solid rgb(148, 33, 33);
+}
+
+#calculator {
+    max-width: 750px;
+}
